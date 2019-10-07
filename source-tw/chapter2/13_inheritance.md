@@ -1,4 +1,8 @@
-# 13\_Inheritance
+---
+description: 13_Inheritance
+---
+
+# 繼承（Inheritance）
 
 > 翻譯：[Hawstein](https://github.com/Hawstein)  
 > 校對：[menlongsheng](https://github.com/menlongsheng)

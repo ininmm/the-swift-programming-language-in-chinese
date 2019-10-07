@@ -1,4 +1,8 @@
-# 03\_Strings\_and\_Characters
+---
+description: 03_Strings_and_Characters
+---
+
+# 字符串和字符（Strings and Characters）
 
 > 翻譯：[wh1100717](https://github.com/wh1100717)  
 > 校對：[Hawstein](https://github.com/Hawstein)

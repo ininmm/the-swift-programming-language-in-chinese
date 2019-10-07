@@ -1,4 +1,8 @@
-# 15\_Deinitialization
+---
+description: 15_Deinitialization
+---
+
+# 析構過程（Deinitialization）
 
 > 翻譯：[bruce0505](https://github.com/bruce0505)  
 > 校對：[fd5788](https://github.com/fd5788)

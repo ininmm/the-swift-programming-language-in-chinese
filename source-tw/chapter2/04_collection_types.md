@@ -1,4 +1,8 @@
-# 04\_Collection\_Types
+---
+description: 04_Collection_Types
+---
+
+# 集合類型 \(Collection Types\)
 
 > 翻譯：[zqp](https://github.com/zqp)  
 > 校對：[shinyzhu](https://github.com/shinyzhu), [stanzhai](https://github.com/stanzhai), [feiin](https://github.com/feiin)

@@ -1,4 +1,8 @@
-# 18\_Type\_Casting
+---
+description: 18_Type_Casting
+---
+
+# 類型轉換（Type Casting）
 
 > 翻譯：[xiehurricane](https://github.com/xiehurricane)  
 > 校對：[happyming](https://github.com/happyming)

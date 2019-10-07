@@ -1,4 +1,8 @@
-# 08\_Enumerations
+---
+description: 08_Enumerations
+---
+
+# 枚舉（Enumerations）
 
 > 翻譯：[yankuangshi](https://github.com/yankuangshi)  
 > 校對：[shinyzhu](https://github.com/shinyzhu)

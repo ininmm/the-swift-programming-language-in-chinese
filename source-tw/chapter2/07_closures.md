@@ -1,4 +1,8 @@
-# 07\_Closures
+---
+description: 07_Closures
+---
+
+# 閉包（Closures）
 
 > 翻譯：[wh1100717](https://github.com/wh1100717)  
 > 校對：[lyuka](https://github.com/lyuka)

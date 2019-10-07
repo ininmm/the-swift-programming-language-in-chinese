@@ -1,4 +1,8 @@
-# 10\_Properties
+---
+description: 10_Properties
+---
+
+# 屬性 \(Properties\)
 
 > 翻譯：[shinyzhu](https://github.com/shinyzhu)  
 > 校對：[pp-prog](https://github.com/pp-prog)

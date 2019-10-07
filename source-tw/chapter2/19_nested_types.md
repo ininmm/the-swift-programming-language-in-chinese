@@ -1,4 +1,8 @@
-# 19\_Nested\_Types
+---
+description: 19_Nested_Types
+---
+
+# 嵌套類型
 
 > 翻譯：[Lin-H](https://github.com/Lin-H)  
 > 校對：[shinyzhu](https://github.com/shinyzhu)

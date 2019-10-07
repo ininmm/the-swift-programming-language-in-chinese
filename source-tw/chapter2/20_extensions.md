@@ -1,4 +1,8 @@
-# 20\_Extensions
+---
+description: 20_Extensions
+---
+
+# 擴展（Extensions）
 
 > 翻譯：[lyuka](https://github.com/lyuka)  
 > 校對：[Hawstein](https://github.com/Hawstein)

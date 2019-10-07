@@ -1,4 +1,8 @@
-# 02\_Basic\_Operators03\_Strings\_and\_Characters02\_Basic\_Operators01\_The\_Basics
+---
+description: 02_Basic_Operators
+---
+
+# 基本運算符
 
 > 翻譯：[xielingwang](https://github.com/xielingwang)  
 > 校對：[Evilcome](https://github.com/Evilcome)

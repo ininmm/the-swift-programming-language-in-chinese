@@ -1,4 +1,8 @@
-# 06\_Functions
+---
+description: 06_Functions
+---
+
+# 函數（Functions）
 
 > 翻譯：[honghaoz](https://github.com/honghaoz) 校對：[LunaticM](https://github.com/LunaticM)
 

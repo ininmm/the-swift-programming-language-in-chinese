@@ -1,4 +1,8 @@
-# 22\_Generics
+---
+description: 22_Generics
+---
+
+# 泛型
 
 > 翻譯：[takalard](https://github.com/takalard)  
 > 校對：[lifedim](https://github.com/lifedim)

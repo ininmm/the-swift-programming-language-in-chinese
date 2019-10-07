@@ -1,4 +1,8 @@
-# 14\_Initialization
+---
+description: 14_Initialization
+---
+
+# 構造過程（Initialization）
 
 > 翻譯：[lifedim](https://github.com/lifedim)  
 > 校對：[lifedim](https://github.com/lifedim)

@@ -1,4 +1,8 @@
-# 16\_Automatic\_Reference\_Counting
+---
+description: 16_Automatic_Reference_Counting
+---
+
+# 自動引用計數
 
 > 翻譯：[TimothyYe](https://github.com/TimothyYe)  
 > 校對：[Hawstein](https://github.com/Hawstein)

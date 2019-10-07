@@ -1,4 +1,8 @@
-# 12\_Subscripts
+---
+description: 12_Subscripts
+---
+
+# 下標腳本（Subscripts）
 
 > 翻譯：[siemenliu](https://github.com/siemenliu)  
 > 校對：[zq54zquan](https://github.com/zq54zquan)
