@@ -1,8 +1,9 @@
+# 關於 Swift
+
 > 翻譯：[numbbbbb](https://github.com/numbbbbb)  
 > 校對：[yeahdongcn](https://github.com/yeahdongcn)
 
-# 關於 Swift
------------------
+## 關於 Swift
 
 Swift 是一種新的編程語言，用於編寫 iOS 和 OS X 應用。Swift 結合了 C 和 Objective-C 的優點並且不受 C 兼容性的限制。Swift 採用安全的編程模式並添加了很多新特性，這將使編程更簡單，更靈活，也更有趣。Swift 是基於成熟而且倍受喜愛的 Cocoa 和 Cocoa Touch 框架，它的降臨將重新定義軟件開發。
 
@@ -15,3 +16,4 @@ Swift 對於初學者來說也很友好。它是第一個既滿足工業標準�
 Swift 將現代編程語言的精華和蘋果工程師文化的智慧結合了起來。編譯器對性能進行了優化，編程語言對開發進行了優化，兩者互不干擾，魚與熊掌兼得。Swift 既可以用於開發 「hello, world」 這樣的小程序，也可以用於開發一套完整的操作系統。所有的這些特性讓 Swift 對於開發者和蘋果來說都是一項值得的投資。
 
 Swift 是編寫 iOS 和 OS X 應用的極佳手段，並將伴隨著新的特性和功能持續演進。我們對 Swift 充滿信心，你還在等什麼！
+

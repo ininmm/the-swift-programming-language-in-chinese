@@ -1,19 +1,19 @@
+# Swift 初見
+
 > 翻譯：[numbbbbb](https://github.com/numbbbbb)  
 > 校對：[shinyzhu](https://github.com/shinyzhu), [stanzhai](https://github.com/stanzhai)
 
-# Swift 初見
-
----
+## Swift 初見
 
 本頁內容包括：
 
--   [簡單值（Simple Values）](#simple_values)
--   [控制流（Control Flow）](#control_flow)
--   [函數和閉包（Functions and Closures）](#functions_and_closures)
--   [對像和類（Objects and Classes）](#objects_and_classes)
--   [枚舉和結構體（Enumerations and Structures）](#enumerations_and_structures)
--   [協議和擴展（Protocols and Extensions）](#protocols_and_extensions)
--   [泛型（Generics）](#generics)
+* [簡單值（Simple Values）](02_a_swift_tour.md#simple_values)
+* [控制流（Control Flow）](02_a_swift_tour.md#control_flow)
+* [函數和閉包（Functions and Closures）](02_a_swift_tour.md#functions_and_closures)
+* [對像和類（Objects and Classes）](02_a_swift_tour.md#objects_and_classes)
+* [枚舉和結構體（Enumerations and Structures）](02_a_swift_tour.md#enumerations_and_structures)
+* [協議和擴展（Protocols and Extensions）](02_a_swift_tour.md#protocols_and_extensions)
+* [泛型（Generics）](02_a_swift_tour.md#generics)
 
 通常來說，編程語言教程中的第一個程序應該在屏幕上打印「Hello, world」。在 Swift 中，可以用一行代碼實現：
 
@@ -27,10 +27,9 @@ println("Hello, world")
 
 > 注意：  
 > 為了獲得最好的體驗，在 Xcode 當中使用代碼預覽功能。代碼預覽功能可以讓你編輯代碼並實時看到運行結果。  
-> <a href="https://github.com/numbbbbb/the-swift-programming-language-in-chinese/raw/gh-pages/source/chapter1/GuidedTour.playground.zip">打開Playground</a>
+> [打開Playground](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/raw/gh-pages/source/chapter1/GuidedTour.playground.zip)
 
-<a name="simple_values"></a>
-## 簡單值
+### 簡單值
 
 使用`let`來聲明常量，使用`var`來聲明變量。一個常量的值，在編譯的時候，並不需要有明確的值，但是你只能為它賦值一次。也就是說你可以用常量來表示這樣一個值：你只需要決定一次，但是需要使用很多次。
 
@@ -60,6 +59,7 @@ let label = "The width is"
 let width = 94
 let widthLabel = label + String(width)
 ```
+
 > 練習：  
 > 刪除最後一行中的`String`，錯誤提示是什麼？
 
@@ -103,8 +103,7 @@ let emptyDictionary = Dictionary<String, Float>()
 shoppingList = []   // 去逛街並買點東西
 ```
 
-<a name="control_flow"></a>
-## 控制流
+### 控制流
 
 使用`if`和`switch`來進行條件操作，使用`for-in`、`for`、`while`和`do-while`來進行循環。包裹條件和循環變量括號可以省略，但是語句體的大括號是必須的。
 
@@ -218,8 +217,7 @@ secondForLoop
 
 使用`..<`創建的範圍不包含上界，如果想包含的話需要使用`...`。
 
-<a name="functions_and_closures"></a>
-## 函數和閉包
+### 函數和閉包
 
 使用`func`來聲明一個函數，使用名字和參數來調用函數。使用`->`來指定函數返回值。
 
@@ -329,8 +327,7 @@ numbers.map({ number in 3 * number })
 sort([1, 5, 3, 12, 2]) { $0 > $1 }
 ```
 
-<a name="objects_and_classes"></a>
-## 對像和類
+### 對像和類
 
 使用`class`和類名來創建一個類。類中屬性的聲明和常量、變量聲明一樣，唯一的區別就是它們的上下文是類。同樣，方法和函數聲明也一樣。
 
@@ -492,8 +489,7 @@ let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
 let sideLength = optionalSquare?.sideLength
 ```
 
-<a name="enumerations_and_structure"></a>
-## 枚舉和結構體
+### 枚舉和結構體
 
 使用`enum`來創建一個枚舉。就像類和其他所有命名類型一樣，枚舉可以包含方法。
 
@@ -562,8 +558,7 @@ let heartsDescription = hearts.simpleDescription()
 
 注意，有兩種方式可以引用`Hearts`成員：給`hearts`常量賦值時，枚舉成員`Suit.Hearts`需要用全名來引用，因為常量沒有顯式指定類型。在`switch`裡，枚舉成員使用縮寫`.Hearts`來引用，因為`self`的值已經知道是一個`suit`。已知變量類型的情況下你可以使用縮寫。
 
-使用`struct`來創建一個結構體。結構體和類有很多相同的地方，比如方法和構造器。它們之間最大的一個區別就是
-結構體是傳值，類是傳引用。
+使用`struct`來創建一個結構體。結構體和類有很多相同的地方，比如方法和構造器。它們之間最大的一個區別就是 結構體是傳值，類是傳引用。
 
 ```swift
 struct Card {
@@ -607,8 +602,7 @@ case let .Error(error):
 
 注意如何從`ServerResponse`中提取日昇和日落時間。
 
-<a name="protocols_and_extensions"></a>
-## 協議和擴展
+### 協議和擴展
 
 使用`protocol`來聲明一個協議。
 
@@ -676,8 +670,7 @@ protocolValue.simpleDescription
 
 即使`protocolValue`變量運行時的類型是`simpleClass`，編譯器會把它的類型當做`ExampleProtocol`。這表示你不能調用類在它實現的協議之外實現的方法或者屬性。
 
-<a name="generics"></a>
-## 泛型
+### 泛型
 
 在尖括號裡寫一個名字來創建一個泛型函數或者類型。
 
@@ -723,4 +716,5 @@ anyCommonElements([1, 2, 3], [3])
 > 練習：  
 > 修改`anyCommonElements`函數來創建一個函數，返回一個數組，內容是兩個序列的共有元素。
 
-簡單起見，你可以忽略`where`，只在冒號後面寫協議或者類名。` <T: Equatable>`和`<T where T: Equatable>`是等價的。
+簡單起見，你可以忽略`where`，只在冒號後面寫協議或者類名。`<T: Equatable>`和`<T where T: Equatable>`是等價的。
+

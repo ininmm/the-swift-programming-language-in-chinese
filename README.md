@@ -1,5 +1,6 @@
-《The Swift Programming Language》in Chinese
-=============================================
+# Introduce
+
+## 《The Swift Programming Language》in Chinese
 
 中文版 Apple 官方 Swift 教程《The Swift Programming Language》
 
@@ -7,49 +8,49 @@
 
 [英文原版ePub版](https://swift.org/documentation/)
 
-# 在线阅读
+## 在线阅读
 
 使用 GitBook 制作，可以直接[在线阅读](http://swiftguide.cn/)。
 
-# 当前阶段
+## 当前阶段
 
 Swift 5.0 翻译中，请到 [Issues](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese/issues) 中认领章节（在 issue 中直接回复”认领“即可，如果有操作权限也可以把自己设置成 assignee）。
 
-- 更新到 Swift 4.2，2019-01-27，
-- 更新到 Swift 4.1，2018-04-12，感谢[@Mylittleswift](https://github.com/Mylittleswift)
-- 更新到 Swift 3.0，2016-09-23
+* 更新到 Swift 4.2，2019-01-27，
+* 更新到 Swift 4.1，2018-04-12，感谢[@Mylittleswift](https://github.com/Mylittleswift)
+* 更新到 Swift 3.0，2016-09-23
 
-# 贡献力量
+## 贡献力量
 
 如果想做出贡献的话，你可以：
 
-- 参与翻译
-- 帮忙校对，挑错别字、病句等等
-- 提出修改建议
-- 提出术语翻译建议
+* 参与翻译
+* 帮忙校对，挑错别字、病句等等
+* 提出修改建议
+* 提出术语翻译建议
 
-# 翻译建议
+## 翻译建议
 
 如果你有兴趣参与项目，请仔细阅读说明：
 
 排版格式和流程说明：
 
-- 翻译排版格式要求参考 SwiftGG [排版指南](https://github.com/SwiftGGTeam/translation/blob/master/SwiftGG%20排版指南.md)
-- Pull Request 发起方式参考 SwiftGG [Pull Request 说明](https://github.com/SwiftGGTeam/translation/blob/master/%E7%BF%BB%E8%AF%91%E6%B5%81%E7%A8%8B%E6%A6%82%E8%BF%B0%E5%8F%8APR%E8%AF%B4%E6%98%8E.md#%E5%A6%82%E4%BD%95%E5%8F%91%E8%B5%B7-pull-request)
+* 翻译排版格式要求参考 SwiftGG [排版指南](https://github.com/SwiftGGTeam/translation/blob/master/SwiftGG%20排版指南.md)
+* Pull Request 发起方式参考 SwiftGG [Pull Request 说明](https://github.com/SwiftGGTeam/translation/blob/master/%E7%BF%BB%E8%AF%91%E6%B5%81%E7%A8%8B%E6%A6%82%E8%BF%B0%E5%8F%8APR%E8%AF%B4%E6%98%8E.md#%E5%A6%82%E4%BD%95%E5%8F%91%E8%B5%B7-pull-request)
 
 其他说明：
 
-- 相关术语请严格按照术语表来翻译，如果有问题可以发 Issue 大家一起讨论
-- 使用 Markdown 进行翻译，文件名必须使用英文
-- 翻译后的文档请放到 source 文件夹下的对应章节中，然后 Pull Request 即可，我们会用 GitBook 编译成网页
-- 有其他任何问题都欢迎发 Issue
+* 相关术语请严格按照术语表来翻译，如果有问题可以发 Issue 大家一起讨论
+* 使用 Markdown 进行翻译，文件名必须使用英文
+* 翻译后的文档请放到 source 文件夹下的对应章节中，然后 Pull Request 即可，我们会用 GitBook 编译成网页
+* 有其他任何问题都欢迎发 Issue
 
-# 术语表
+## 术语表
 
 翻译术语的时候请参考这个对照表：
 
 | 术语 | 备选翻译 |
-| --- | --- |
+| :--- | :--- |
 | argument | 实参 |
 | parameter | 形参 |
 | associatedtype | 关联类型 |
@@ -121,11 +122,11 @@ Swift 5.0 翻译中，请到 [Issues](https://github.com/SwiftGGTeam/the-swift-p
 | Assertion | 断言 |
 | conditional compilation | 条件编译 |
 
-# 贡献者
+## 贡献者
 
 [贡献者列表](https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese/blob/gh-pages/source/contributors.md)，感谢大家！
 
+## 协议
 
+和 [苹果官方文档](https://swift.org/documentation/) 协议一致：[Creative Commons Attribution 4.0 International \(CC BY 4.0\) License](https://creativecommons.org/licenses/by/4.0/)。
 
-# 协议
-和 [苹果官方文档](https://swift.org/documentation/) 协议一致：[Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/)。
